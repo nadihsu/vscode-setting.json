@@ -1,0 +1,44 @@
+{
+    "workbench.welcome.enabled": false,
+    // 修改字體
+    "editor.fontFamily": "Hack",
+    // 修改字體大小
+    "editor.fontSize": 16,
+    // 修改字體高度
+    "editor.lineHeight": 28,
+    // 輔助線為虛線
+    "guides.normal.style": "dashed",
+    // tab寬度
+    "editor.tabSize": 2,
+    "editor.tabCompletion": true,
+    // 空白鍵提示
+    "editor.renderWhitespace": "all",
+    "editor.renderIndentGuides": false,
+    "editor.renderLineHighlight": "gutter",
+    // 自動達80字換行
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 80,
+    "editor.insertSpaces": false,
+    "editor.snippetSuggestions": "top",
+    "terminal.external.osxExec": "iTerm.app",
+    // 檔案排除
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
+    // 搜尋排除
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        ".build/**": true,
+        "*.min.js": true
+    },
+    "window.zoomLevel": 0,
+    // Wraps after 72 characters
+    "rewrap.wrappingColumn": 72,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "One Monokai"
+}
